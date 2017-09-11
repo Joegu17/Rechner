@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <title>Mathematik</title>
+  <link rel="stylesheet" href="../formate.css">
+</head>
+
+<body>
+  <h1>Subtraktion</h1>
+  <input id="operation" type="hidden" value="subtraktion">
+  <table>
+    <colgroup>
+      <col style="background-color: rgb(177, 216, 243);
+                 background-color: hsl(205, 73%, 82%);">
+      <col style="background-color: rgb(255, 166, 168);
+                 background-color: hsl(359, 100%, 83%);">
+    </colgroup>
+    <tr>
+      <th style="width: 150px;">Operationen</th>
+      <th style="width: 400px;">Rechner</th>    
+    </tr>
+    <tr>
+      <td style="text-align: left;">
+        <ul>
+		    <li><a href="../index.html" >Addition</li>
+		    <li><a href="subtraktion.html" >Subtraktion</li>
+		    <li><a href="multiplikation.html" >Multiplikation</li>
+		    <li><a href="division.html" >Division</li>        
+        </ul>
+      </td>
+      <td style="text-align: center;" id="rechner">
+        <form>
+           <p><input id="zahl1" type="number" step="any" value="0">
+           -
+           <input id="zahl2" type="number" step="any" value="0">
+           =
+           <output id="resultat" >0</output></p>
+        </form>
+      </td>
+    </tr>  
+  </table>
+  <script src="../addition.js"></script>
+</body>
+</html>

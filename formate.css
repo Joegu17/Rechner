@@ -1,0 +1,18 @@
+input[type="number"] {
+    position: relative;
+    margin: 0 0 1rem;
+    border: 1px solid #BBB;
+    border-color: #BBB #ECECEC #ECECEC #BBB;
+    padding: .2rem;
+    width: 90px;
+}
+
+th {
+	font-size: 1.2em;
+	text-align: left;
+	#border: 1px solid;
+}
+
+td {
+	#border: 1px solid;
+}
